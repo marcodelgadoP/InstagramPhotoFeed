@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(216, 219, 219);
+}
+.header{
+    text-align: center;
+}
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.photo {
+    margin-bottom: 20px;
+    position: relative;
+    background-color: white;
+}
+
+.photo img {
+    width: 100%;
+    display: block;
+}
+
+.photo .title {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.photo .date {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 5px;
+    font-size: 14px;
+    float: right;
+    /*top: 10px;*/
+}
+
+.photo .texto {
+    margin-top: 10px;
+    font-size: 14px;
+}
